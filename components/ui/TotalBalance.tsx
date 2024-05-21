@@ -8,8 +8,8 @@ const TotalBalance = ({
 	totalCurrentBalance,
 }: TotlaBalanceBoxProps) => {
 	return (
-		<section className="total-balance">
-			<div>
+		<section className="total-balance w-full">
+			<div className="total-balance-chart">
 				<DoughnutChart accounts={accounts} />
 			</div>
 
